@@ -1,0 +1,18 @@
+{
+	"servers": {
+		"Calculator-STDIO": {
+			"command": "python",
+			"args": ["scen1/fastmcp_calculator.py"]
+		},
+
+		"Calculator-HTTP": {
+			"command": "npx",
+			"args": ["mcp-remote", "http://localhost:8002/mcp"]
+		},
+
+		"Feed-STDIO": {
+			"command": "python",
+			"args": ["scen3/feed_mcp.py"]
+		}
+	}
+}

@@ -44,5 +44,5 @@ def fcc_secret_message():
     return "This is a secret message!"
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport="http")
     
