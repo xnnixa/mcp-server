@@ -1,0 +1,12 @@
+## Minimal runtime dependencies for the MCP server
+
+# For scen1 and scen3 (FastMCP-based servers)
+fastmcp>=2.12.5
+
+# For scen2 (FastAPI + fastapi-mcp HTTP server)
+fastapi>=0.119.1
+fastapi-mcp>=0.4.0
+uvicorn>=0.38.0
+
+# RSS feed parsing
+feedparser>=6.0.12
