@@ -14,5 +14,5 @@
 			"command": "python",
 			"args": ["scen3/feed_mcp.py"]
 		}
-	}
+	}  
 }
